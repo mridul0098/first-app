@@ -1,23 +1,23 @@
 import 'package:flutter/material.dart';
 
-void main(){
-   runApp(
-     MaterialApp(
-       title: 'mridul',
-       home: Scaffold(
-         body:Center(
-          child: Text("hello world") 
-         ),
-       ),
-      )
-   );
-}
-class MyApp extends StatelessWidget {
+void main() {
+  runApp(
+    MaterialApp(
+      title: 'mridul',
+      home: Scaffold(
+        body: MyApp()
 
+        ),
+    ),
+  );
+}
+
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return Center(
+      child: Text("hello world 111111111234"),
       
-    );
+      );
   }
 }
